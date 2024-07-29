@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-container" style="width:100%;">
+        <video autoplay muted loop id="background-video">
+            <source src="gamebc.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    <div class="game-container">
+        <img src="game1.png" style="height:100px;margin-top:50px;">
+        
+        <p id="message"><b>TRY YOUR LUCK</b></p>
+        <input type="number" id="usernum" min="1" max="100"><br>
+        <button onclick="guessNumber()">Guess</button>
+        <div class="hint">
+            <p>HINT:A multiple of 3  when can be divided into 4 equal part</p>
+        </div>
+    </div>
+    
+    <script src="js.js"></script>
+</body>
+</html>

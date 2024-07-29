@@ -1,0 +1,66 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #88a5a9fe; 
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #f3f4f5a0; 
+    padding: 100px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(185, 24, 24, 0.1);
+}
+
+input[type="number"] {
+    padding: 18px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #047b00;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-left: 21px;
+}
+
+button:hover {
+    background-color: #badcc1;
+}
